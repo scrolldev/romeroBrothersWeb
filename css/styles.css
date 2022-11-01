@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    padding: 0;
+}
+
+/* header {
+    width: 90%;
+    max-width: 1080px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+header .logo img {
+    width: 300px;
+    height: 100px;
+    
+}
+
+/* header .barraDeNavegacion a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #16316f;
+    font-size: 20px;
+}
+
+.main {
+    margin-top: 20px;
+} */
+
+
+
+
+
+/* --MediaQueries-- */
+/* --Dispositivos sm-- */
+@media screen and (max-width: 575px) {
+    .container {
+        padding: 10px;
+    }
+
+}
+
+/* --Dispositivos md-- */
+@media screen and (max-width: 768px) {
+    
+}
+   
+   
+/* --Dispositivos LG-- */
+@media screen and (max-width: 992px) {
+    
+}
+   
+/* --Dispositivos XL-- */
+@media screen and (max-width: 1200px) {
+    /* header .menu a {
+       padding: 10px 20px;       
+    } */
+}
+
